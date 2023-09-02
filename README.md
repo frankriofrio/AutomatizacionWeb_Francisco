@@ -36,7 +36,7 @@ Para ejecutar el proyecto es necesario tener instalado lo siguiente:
   - JDK versión 17.0.4 (debe estar en la variable de entorno)
   - Intellij-Idea Comunity o Ultimate version 2022.3.2
   - Gradle 8.0 (debe estar en la variable de entorno)
-  - Google Chrome Version 114.0.5735.199 o inferior (Observacion se debe tener en cuenta que actualmente existen las versiones de chrome 115 y 116.05845.111 pero al no existir un controlador chromedriver compatible con estas versiones de chrome no es posible la ejecución del proyecto con estas versiones, no obtante para estas versiones actualizadas se puede utilizar el chrome for testing que es netamente para realizar pruebas automatizadas lanzado por google recientemente)
+  - Google Chrome Version 116.0.5845.141 o inferior (Observacion se ha añadido una dependencia para el control de versiones del navegador chrome y del web driver llamada "webdrivermanager", como observacion en ciertos casos para un optimo despliege se debe borrar de cache el webdriver ejecutado con anterioridad, cuando no se ejecuta de forma directa)
 
 
 
